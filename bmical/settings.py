@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-%p!3)m87s6tii&iu=)k#8--e%#xbo7rlp2y#^eu3y+-fmv+&&x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bmical-ropz.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
