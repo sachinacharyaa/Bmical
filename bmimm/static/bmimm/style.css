@@ -1,0 +1,42 @@
+/* Premium gradient background with smooth animation */
+.animated-bg {
+  background: linear-gradient(
+    -45deg,
+    #fce4ec,
+    /* pink silk */ #fffde7,
+    /* cream yellow */ #e0f7fa,
+    /* soft blue */ #f8bbd0 /* light pink */
+  );
+  background-size: 400% 400%;
+  animation: gradientFlow 20s ease infinite;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: "Times New Roman", serif;
+}
+
+/* Animation keyframes */
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 70%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.card.shadow {
+  background-color: #f9f7f1; /* very soft white */
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #4a90e2;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #3b7bd1;
+}
